@@ -1,0 +1,10 @@
+{
+  "name": "cortex",
+  "description": "Cortex \u2014 Wearable AI Memory. Connect to your Cortex wearable device to store notes, log activities, track sessions, and maintain persistent memory across AI conversations. Requires the Cortex hardware (ESP32-S3 USB dongle + Pi Zero 2 W) and the cortex-mcp Python package.",
+  "version": "1.0.0",
+  "author": {
+    "name": "turfptax"
+  },
+  "homepage": "https://github.com/turfptax/cortex",
+  "repository": "https://github.com/turfptax/cortex-plugin"
+}
