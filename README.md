@@ -10,21 +10,37 @@ A Claude Code plugin marketplace for the [Cortex wearable AI memory system](http
 pip install git+https://github.com/turfptax/cortex.git
 ```
 
-### 2. Add this marketplace to Claude Code
+### 2. Verify connectivity (ESP32 must be plugged in)
+
+```bash
+python -m cortex_mcp ping
+```
+
+### 3. Add this marketplace to Claude Code
 
 ```
 /plugin marketplace add turfptax/cortex-plugin
 ```
 
-### 3. Install the plugin
+### 4. Install the plugin
 
 ```
 /plugin install cortex@cortex-plugin
 ```
 
-### 4. Restart Claude Code
+### 5. Restart Claude Code
 
 The Cortex MCP tools, slash commands, and memory skill will be available in all sessions.
+
+## Also want it on Claude Desktop?
+
+After the pip install, run:
+
+```bash
+python -m cortex_mcp setup --target claude-desktop
+```
+
+Then restart Claude Desktop. Both Claude Code and Claude Desktop can connect simultaneously through the daemon.
 
 ## What's Included
 

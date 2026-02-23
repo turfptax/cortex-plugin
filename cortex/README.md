@@ -20,7 +20,7 @@ Connects Claude Code to the **Cortex wearable AI memory system** — a physical 
 
 3. **Verify**: Test connectivity before installing the plugin:
    ```bash
-   cortex-cli ping
+   python -m cortex_mcp ping
    ```
 
 ## MCP Tools

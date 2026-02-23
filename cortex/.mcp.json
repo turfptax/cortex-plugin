@@ -2,8 +2,8 @@
   "mcpServers": {
     "cortex": {
       "type": "stdio",
-      "command": "cortex-mcp",
-      "args": [],
+      "command": "python",
+      "args": ["-m", "cortex_mcp.server"],
       "env": {
         "CORTEX_PORT": "${CORTEX_PORT:-}",
         "CORTEX_BAUD": "${CORTEX_BAUD:-115200}",
