@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets / local config (never commit)
+.env
+secrets.toml
+*.secret
+
+# Node tooling (if any)
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
